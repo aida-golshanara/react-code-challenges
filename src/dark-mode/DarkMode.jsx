@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function DarkMode() {
   const [darkMode, setDarkMode] = useState(false);
@@ -16,9 +14,9 @@ function DarkMode() {
 
   return (
     <>
-    <nav className='navbar navbar-expand-lg bg-body-tertiary fw-bold'>
+      <nav className='navbar navbar-expand-lg bg-body-tertiary fw-bold'>
         <div className='container'>
-          <a className='navbar-brand me-5' href='#'>
+          <a className='navbar-brand me-5' href='/'>
             Welcome to React.js Code Challenges
           </a>
           <button
@@ -36,6 +34,7 @@ function DarkMode() {
             <div className='navbar-nav'>
               <a
                 target='_blank'
+                rel='noreferrer'
                 className='nav-link me-2'
                 href='https://www.linkedin.com/in/aida-golshanara/'
               >
@@ -43,6 +42,7 @@ function DarkMode() {
               </a>
               <a
                 target='_blank'
+                rel='noreferrer'
                 className='nav-link me-2'
                 href='https://github.com/aida-golshanara?tab=repositories'
               >
@@ -50,6 +50,7 @@ function DarkMode() {
               </a>
               <a
                 target='_blank'
+                rel='noreferrer'
                 className='nav-link'
                 href='https://kmagroute.com/'
               >
@@ -59,25 +60,25 @@ function DarkMode() {
           </div>
         </div>
       </nav>
-    <div
-      className={`container-fluid ${
-        darkMode ? 'bg-dark text-white' : 'bg-light text-dark'
-      }`}
-    >
       <div
-        className='row justify-content-center align-items-center'
-        style={{ height: '100vh' }}
+        className={`container-fluid ${
+          darkMode ? 'bg-dark text-white' : 'bg-light text-dark'
+        }`}
       >
-        <div className='col-12 text-center'>
-          <button className='btn btn-primary mr-2' onClick={handleDarkMode}>
-            Dark Mode
-          </button>
-          <button className='btn btn-secondary' onClick={handleLightMode}>
-            Light Mode
-          </button>
+        <div
+          className='row justify-content-center align-items-center'
+          style={{ height: '100vh' }}
+        >
+          <div className='col-12 text-center'>
+            <button className='btn btn-primary mr-2' onClick={handleDarkMode}>
+              Dark Mode
+            </button>
+            <button className='btn btn-secondary' onClick={handleLightMode}>
+              Light Mode
+            </button>
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 }

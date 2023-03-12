@@ -24,7 +24,7 @@ export default function ColorRenderer() {
     <>
       <nav className='navbar navbar-expand-lg bg-body-tertiary fw-bold'>
         <div className='container'>
-          <a className='navbar-brand me-5' href='#'>
+          <a className='navbar-brand me-5' href='/'>
             Welcome to React.js Code Challenges
           </a>
           <button
@@ -42,6 +42,7 @@ export default function ColorRenderer() {
             <div className='navbar-nav'>
               <a
                 target='_blank'
+                rel='noreferrer'
                 className='nav-link me-2'
                 href='https://www.linkedin.com/in/aida-golshanara/'
               >
@@ -49,6 +50,7 @@ export default function ColorRenderer() {
               </a>
               <a
                 target='_blank'
+                rel='noreferrer'
                 className='nav-link me-2'
                 href='https://github.com/aida-golshanara?tab=repositories'
               >
@@ -56,6 +58,7 @@ export default function ColorRenderer() {
               </a>
               <a
                 target='_blank'
+                rel='noreferrer'
                 className='nav-link'
                 href='https://kmagroute.com/'
               >

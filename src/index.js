@@ -6,8 +6,7 @@ import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import ColorRenderer from './color-renderer/ColorRenderer';
 import DarkMode from './dark-mode/DarkMode';
-
-
+import FormValidator from './form-validator/FormValidator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +16,7 @@ root.render(
         <Route path='/' element={<App />} />
         <Route path='/color-renderer' element={<ColorRenderer />} />
         <Route path='/dark-mode' element={<DarkMode />} />
+        <Route path='/form-validator' element={<FormValidator />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

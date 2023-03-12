@@ -58,7 +58,7 @@ function App() {
               <div className='card-body'>
                 <h5 className='card-title'>Color Renderer</h5>
                 <p className='card-text'>
-                  this is simple color rendering in react.js by using useState
+                  ...........
                 </p>
                 <NavLink className='btn btn-primary' to='/color-renderer'>
                   Go to the Project
@@ -71,7 +71,7 @@ function App() {
               <div className='card-body'>
                 <h5 className='card-title'>Dark Mode</h5>
                 <p className='card-text'>
-                  by clicking the button you can read a lot of funny jokes
+                  ..............
                 </p>
                 <NavLink className='btn btn-primary' to='/dark-mode'>
                   Go to the Project
@@ -84,17 +84,13 @@ function App() {
           <div className='col-sm-6 mb-3 mb-sm-0'>
             <div className='card'>
               <div className='card-body'>
-                <h5 className='card-title'>photo-gallery</h5>
+                <h5 className='card-title'>Form Validator</h5>
                 <p className='card-text'>
-                  you can see as much as random pictures that you want
+                  ................
                 </p>
-                <a
-                  target='_blank'
-                  href='./photo-gallery/index.html'
-                  className='btn btn-primary'
-                >
+                <NavLink className='btn btn-primary' to='/form-validator'>
                   Go to the Project
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
