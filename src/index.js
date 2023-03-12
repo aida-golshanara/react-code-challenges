@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.css';
 import ColorRenderer from './color-renderer/ColorRenderer';
+import DarkMode from './dark-mode/DarkMode';
 
 
 
@@ -15,6 +16,7 @@ root.render(
       <Routes>
         <Route path='/' element={<App />} />
         <Route path='/color-renderer' element={<ColorRenderer />} />
+        <Route path='/dark-mode' element={<DarkMode />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

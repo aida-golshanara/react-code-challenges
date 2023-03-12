@@ -61,7 +61,7 @@ function App() {
                   this is simple color rendering in react.js by using useState
                 </p>
                 <NavLink className='btn btn-primary' to='/color-renderer'>
-                  Color Renderer
+                  Go to the Project
                 </NavLink>
               </div>
             </div>
@@ -69,17 +69,13 @@ function App() {
           <div className='col-sm-6'>
             <div className='card'>
               <div className='card-body'>
-                <h5 className='card-title'>jokes-generator</h5>
+                <h5 className='card-title'>Dark Mode</h5>
                 <p className='card-text'>
                   by clicking the button you can read a lot of funny jokes
                 </p>
-                <a
-                  target='_blank'
-                  href='./jokes-generator/index.html'
-                  className='btn btn-primary'
-                >
+                <NavLink className='btn btn-primary' to='/dark-mode'>
                   Go to the Project
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
