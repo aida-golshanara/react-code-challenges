@@ -57,9 +57,7 @@ function App() {
             <div className='card'>
               <div className='card-body'>
                 <h5 className='card-title'>Color Renderer</h5>
-                <p className='card-text'>
-                  using useSate and map
-                </p>
+                <p className='card-text'>using useSate and map</p>
                 <NavLink className='btn btn-primary' to='/color-renderer'>
                   Go to the Project
                 </NavLink>
@@ -71,7 +69,8 @@ function App() {
               <div className='card-body'>
                 <h5 className='card-title'>Dark Mode</h5>
                 <p className='card-text'>
-                  there are two button that shows the user the dark mode and light mode
+                  there are two button that shows the user the dark mode and
+                  light mode
                 </p>
                 <NavLink className='btn btn-primary' to='/dark-mode'>
                   Go to the Project
@@ -86,7 +85,10 @@ function App() {
               <div className='card-body'>
                 <h5 className='card-title'>Form Validator</h5>
                 <p className='card-text'>
-                  simple form withh a username, password and password confirmation, that shows an error in case of lack of one of the inputs or not matching the password and password confirmation
+                  simple form withh a username, password and password
+                  confirmation, that shows an error in case of lack of one of
+                  the inputs or not matching the password and password
+                  confirmation
                 </p>
                 <NavLink className='btn btn-primary' to='/form-validator'>
                   Go to the Project
@@ -99,7 +101,8 @@ function App() {
               <div className='card-body'>
                 <h5 className='card-title'>Dog Pictures</h5>
                 <p className='card-text'>
-                  by clicking the button you can see a random picture of dogs each time
+                  by clicking the button you can see a random picture of dogs
+                  each time
                 </p>
                 <NavLink className='btn btn-primary' to='/dog-pictures'>
                   Go to the Project
@@ -112,26 +115,30 @@ function App() {
           <div className='col-sm-6 mb-3 mb-sm-0'>
             <div className='card'>
               <div className='card-body'>
-                <h5 className='card-title'>quote-generator</h5>
+                <h5 className='card-title'>Score Keeper</h5>
                 <p className='card-text'>
-                  by clicking the button you can see a random quote each time
+                  by clicking the button you can see the score and also by
+                  refreshing the page you can still see the score and you do not
+                  loose it
                 </p>
-                <a target='_blank' href='' className='btn btn-primary'>
+                <NavLink className='btn btn-primary' to='/score-keeper'>
                   Go to the Project
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
           <div className='col-sm-6'>
             <div className='card'>
               <div className='card-body'>
-                <h5 className='card-title'>random-emoji</h5>
+                <h5 className='card-title'>Window event</h5>
                 <p className='card-text'>
-                  by clicking the button you can see a random emoji each time
+                  when the toggle window event is active, add an event listener
+                  to the window that triggers an alert if the user double clicks
+                  on the page
                 </p>
-                <a target='_blank' href='' className='btn btn-primary'>
+                <NavLink className='btn btn-primary' to='/window-event'>
                   Go to the Project
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
