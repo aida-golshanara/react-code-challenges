@@ -10,6 +10,7 @@ import FormValidator from './form-validator/FormValidator';
 import DogPics from './dog-pictures/DogPics';
 import ScoreKeeper from './score-keeper/ScoreKeeper';
 import WindowEvent from './window-event/WindowEvent';
+import ColorPicker from './color-picker/ColorPicker';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
         <Route path='/dog-pictures' element={<DogPics />} />
         <Route path='/score-keeper' element={<ScoreKeeper />} />
         <Route path='/window-event' element={<WindowEvent />} />
+        <Route path='/color-picker' element={<ColorPicker />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

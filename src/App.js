@@ -144,6 +144,37 @@ function App() {
           </div>
         </div>
         <div className='row mb-3'>
+          <div className='col-sm-6 mb-3 mb-sm-0'>
+            <div className='card'>
+              <div className='card-body'>
+                <h5 className='card-title'>Color picker</h5>
+                <p className='card-text'>
+                  there are six buttons for one color and by clicking each
+                  button it changes the color of background
+                </p>
+                <NavLink className='btn btn-primary' to='/color-picker'>
+                  Go to the Project
+                </NavLink>
+              </div>
+            </div>
+          </div>
+          <div className='col-sm-6'>
+            <div className='card'>
+              <div className='card-body'>
+                <h5 className='card-title'>Window event</h5>
+                <p className='card-text'>
+                  when the toggle window event is active, add an event listener
+                  to the window that triggers an alert if the user double clicks
+                  on the page
+                </p>
+                <NavLink className='btn btn-primary' to='/window-event'>
+                  Go to the Project
+                </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='row mb-3'>
           <div className='col-sm-6'>
             <div className='card'>
               <div className='card-body'>
